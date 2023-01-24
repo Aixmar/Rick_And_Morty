@@ -1,0 +1,22 @@
+.container {
+    display: flex;
+    margin: auto;
+    width: 30px;
+    justify-content: space-around;
+}
+
+.container input {
+    border-radius: 10px;
+    height: 30px;
+}
+
+.container button {
+    height: 30px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(47, 106, 157);
+    font-family: 'Trebuchet MS';
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 10px;
+  }
+ 

@@ -1,0 +1,51 @@
+.container {
+    border: 1px solid rgb(121, 121, 128);
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    width: 180px;
+    padding: 10px;
+    box-shadow: 0 0 8px black;
+    }
+
+    .image {
+      width: 95%;
+      border: 1px solid rgb(121, 121, 128);
+      border-radius: 9999px;
+    }
+
+    .buttoncontainer {
+      display: flex;
+      justify-content: flex-end;
+    }
+
+    .buttoncontainer button {
+      margin:3px 3px 0px 0px;
+      background-color: rgb(216, 79, 79);
+      color:white;
+      border: none;
+      border-radius: 5px;
+    }
+
+    .buttoncontainer button:hover {
+      background: #2fb4cc;
+      color: rgb(2, 0, 0);
+      font-weight: bold;
+  }
+
+    .data {
+      display:flex;
+      justify-content: space-between;
+    }
+
+    .container:hover {
+      transform: translateY(-10px);
+      transition: 0.4s ease-out;
+    }
+  
+    .cointainer:hover ~ .card {
+      position: relative;
+      left: 50px;
+      transition: 0.4s ease-out;
+    }
+
+    

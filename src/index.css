@@ -5,6 +5,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url("http://www.nasa.gov/sites/default/files/thumbnails/image/p1639ay-goodss-160930.jpg"); 
+  background-size: cover;
 }
 
 code {

@@ -1,13 +1,4 @@
-const characters = [
-  {
-  id: 1,
-  name: "Rick Sanchez",
-  species: "Human",
-  gender: "Male",
-  image: "https://rickandmortyapi.com/api/character/avatar/1.jpeg",
- },
-    
-  {
+const characters = [{
     id: 2,
     name: "Morty Smith",
     species: "Human",
@@ -28,6 +19,7 @@ const characters = [
     gender: "Female",
     image: "https://rickandmortyapi.com/api/character/avatar/4.jpeg",
   },
+
 ];
 
 export const Rick = {
