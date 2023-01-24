@@ -11,7 +11,7 @@ export default function Nav(props) {
          <div className={styles.container}>
             <Link to="/about">About</Link>
             <SearchBar onSearch={props.onSearch}/>
-            <Link to="/">Home</Link>
+            <Link to="/home">Home</Link>
         </div>
     );
 }

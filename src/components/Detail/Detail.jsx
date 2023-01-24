@@ -2,6 +2,7 @@ import { useState, useEffect } from "react"
 import { useParams } from "react-router-dom"
 import styles from './Detail.module.css';
 import { Link } from "react-router-dom";
+
 export default function Detail (props) {
 
 const {detailId} = useParams();
@@ -28,10 +29,11 @@ console.log(character);
 
     return (
         <div className={styles.container}>
-          
-          <Link to="/" />
+
+           <Link to="/home">
             <button>GO BACK!</button>
-          <Link/>
+           </Link>
+
           <img src={character.image} alt=""/>
            <h2>{character.name}</h2> 
            <h3>Origin: {character.origin?.name}</h3>    
